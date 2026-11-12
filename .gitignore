@@ -1,0 +1,36 @@
+
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Captured network data
+data/raw/*
+data/processed/*
+*.pcap
+*.pcapng
+
+# Generated reports
+reports/*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
